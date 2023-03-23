@@ -40,6 +40,7 @@ export ROS_MASTER_URI=http://192.168.1.113:11311/
 export ROS_HOSTNAME=192.168.1.102
 export ROS_IP=192.168.1.102
 ```
+### -- PC'den Jetson Nano ya bağlanacağımız zaman Jetson Nano nu IP adresi ROS_MASTER_URI içerisine yazılması gerekir. Diğer durumlarda PC'nin kendi local IP si yazsılmalıdır. Aksi takdirde PC'de `ROSCORE` çalışmayacaktır.
 ### -- Kayıt edip çıktıktan sonra derleme işlemi yapması için yeni bir terminal açmamız ya da aşağıdaki satırı yazmamız gerekmektedir.
 
 ```sh
